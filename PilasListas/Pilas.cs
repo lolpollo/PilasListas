@@ -22,7 +22,7 @@ namespace PilasListas
         {
             if (_pila.Count == 0)
             {
-                throw new Exception("La cola está vacía.");
+                throw new Exception("La pila está vacía.");
             }
             _pila.RemoveAt(_pila.Count - 1 );
         }
